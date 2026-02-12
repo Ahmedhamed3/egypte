@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.0",
+  "defaultLanguage": "en",
+  "supportedLanguages": ["en", "ar"],
+  "places": [
+    {
+      "id": "giza",
+      "coordinates": [0.8, 0.2, 0.5],
+      "heroColor": "#f4bf75",
+      "name": { "en": "Giza Pyramids", "ar": "أهرامات الجيزة" },
+      "category": { "en": "Ancient Wonder", "ar": "عجيبة قديمة" },
+      "overview": {
+        "en": "Meet giant pyramids built over 4,500 years ago and decode secrets of pharaohs.",
+        "ar": "اكتشف أهرامات عملاقة بُنيت منذ أكثر من 4500 سنة وافك أسرار الفراعنة."
+      },
+      "funFacts": [
+        {
+          "en": "The Great Pyramid was the tallest human-made structure for almost 4,000 years.",
+          "ar": "كان الهرم الأكبر أطول مبنى صنعه الإنسان لمدة تقارب 4000 عام."
+        },
+        {
+          "en": "Some stones weigh as much as an elephant!",
+          "ar": "بعض الأحجار تزن مثل وزن فيل كامل!"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "giza-q1",
+          "question": { "en": "Who built the Great Pyramid?", "ar": "من بنى الهرم الأكبر؟" },
+          "choices": [
+            { "en": "Pharaoh Khufu", "ar": "الفرعون خوفو" },
+            { "en": "Cleopatra", "ar": "كليوباترا" },
+            { "en": "Tutankhamun", "ar": "توت عنخ آمون" }
+          ],
+          "answerIndex": 0
+        }
+      ],
+      "layers": [
+        {
+          "id": 1,
+          "title": { "en": "Explorer Lens", "ar": "عدسة المستكشف" },
+          "objective": {
+            "en": "Tap glowing points to reveal basic pyramid facts and symbols.",
+            "ar": "اضغط على النقاط المضيئة لاكتشاف حقائق ورموز الأهرامات."
+          }
+        },
+        {
+          "id": 2,
+          "title": { "en": "Mini Mission", "ar": "مهمة صغيرة" },
+          "objective": {
+            "en": "Arrange building blocks in the right order to complete a pyramid.",
+            "ar": "رتب الأحجار بالترتيب الصحيح لإكمال بناء الهرم."
+          }
+        },
+        {
+          "id": 3,
+          "title": { "en": "Inside Chamber", "ar": "داخل الحجرة" },
+          "objective": {
+            "en": "Explore a 3D chamber and rotate artifacts to learn their purpose.",
+            "ar": "استكشف حجرة ثلاثية الأبعاد ودوّر القطع الأثرية لتتعرف على وظيفتها."
+          }
+        },
+        {
+          "id": 4,
+          "title": { "en": "Sphinx Challenge", "ar": "تحدي أبو الهول" },
+          "objective": {
+            "en": "Answer quiz riddles to earn the Guardian Badge.",
+            "ar": "أجب عن ألغاز المسابقة لتحصل على شارة الحارس."
+          }
+        },
+        {
+          "id": 5,
+          "title": { "en": "Story Forge", "ar": "صناعة القصة" },
+          "objective": {
+            "en": "Choose your own adventure and decide how to protect the monuments.",
+            "ar": "اصنع مغامرتك الخاصة وقرر كيف تحمي الآثار."
+          }
+        }
+      ],
+      "voiceIntents": {
+        "history": {
+          "en": "The pyramids were royal tombs from Egypt's Old Kingdom. Workers used ramps and teamwork.",
+          "ar": "الأهرامات كانت مقابر ملكية من عصر الدولة القديمة. استخدم العمال المنحدرات والعمل الجماعي."
+        },
+        "culture": {
+          "en": "Ancient Egyptians believed in life after death, so tombs were filled with useful objects.",
+          "ar": "كان المصريون القدماء يؤمنون بالحياة بعد الموت، لذلك وضعوا أشياء مفيدة داخل المقابر."
+        },
+        "fun": {
+          "en": "Imagine stacking over two million blocks—what a mega puzzle!",
+          "ar": "تخيل رص أكثر من مليوني حجر — يا لها من أحجية ضخمة!"
+        }
+      }
+    },
+    {
+      "id": "luxor",
+      "coordinates": [0.5, 0.35, 0.4],
+      "heroColor": "#9d8be8",
+      "name": { "en": "Luxor Temples", "ar": "معابد الأقصر" },
+      "category": { "en": "Temple City", "ar": "مدينة المعابد" },
+      "overview": {
+        "en": "Walk through giant columns and discover festival stories in the ancient city of Thebes.",
+        "ar": "تجول بين أعمدة عملاقة واكتشف قصص الاحتفالات في مدينة طيبة القديمة."
+      },
+      "funFacts": [],
+      "quiz": [],
+      "layers": [],
+      "voiceIntents": {}
+    }
+  ],
+  "badges": [
+    {
+      "id": "guardian",
+      "name": { "en": "Guardian of Giza", "ar": "حارس الجيزة" },
+      "description": {
+        "en": "Complete layer 4 and answer a riddle correctly.",
+        "ar": "أكمل الطبقة الرابعة وأجب عن لغز بشكل صحيح."
+      }
+    }
+  ]
+}
