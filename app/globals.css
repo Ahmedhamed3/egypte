@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-gradient-to-b from-[#10192d] via-[#12354b] to-[#182036] text-white;
+  min-height: 100vh;
+}
+
+.panel {
+  @apply rounded-2xl border border-white/20 bg-white/10 backdrop-blur-md shadow-xl;
+}
+
+.kid-button {
+  @apply rounded-full bg-gradient-to-r from-amber-300 to-orange-400 px-4 py-2 text-sm font-bold text-slate-900 transition hover:scale-105 focus:outline-none focus:ring-2 focus:ring-cyan-300;
+}
